@@ -29,7 +29,7 @@ Idents(data) = data$Group
 DimPlot(data)
 ```
 
-![Picture2](pic\Picture2.png)
+![Picture2](./pic/Picture2.png)
 
 ##### Identification of Differentially Expressed Genes
 
@@ -45,13 +45,13 @@ res = ISEA(DEG.gene.select = DEG.gene.select,sig.mtx = cancer.sig)
 DrWho::ISEA.Plot(res)
 ```
 
-![Picture3](pic\Picture3.png)
+![Picture3](./pic/Picture3.png)
 
 #### 4. Function Documentation
 
-![Picture4](pic\Picture4.png)
+![Picture4](./pic/Picture4.png)
 
-![Picture4](pic\Picture5.png)
+![Picture4](./pic/Picture5.png)
 
 #### 5. Citation
 
