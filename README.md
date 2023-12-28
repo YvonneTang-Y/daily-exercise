@@ -21,7 +21,7 @@ data  = readRDS("H:/SCAR_ZONG/Cancer/SCAR_Atlas_0686.rds")
 DimPlot(data)
 ```
 
-![Picture1](pic\Picture1.png)
+![Picture1](./pic/Picture1.png)
 
 ```R
 data$Group <- ifelse(grepl("Malignant", data$cell_type), "Malignant", "Normal")
